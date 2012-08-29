@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDEA61C15EDDC950066D36E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDEA61B15EDDC950066D36E /* UIKit.framework */; };
+		CEDEA61E15EDDC950066D36E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDEA61D15EDDC950066D36E /* Foundation.framework */; };
+		CEDEA62015EDDC950066D36E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDEA61F15EDDC950066D36E /* CoreGraphics.framework */; };
+		CEDEA62615EDDC950066D36E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDEA62415EDDC950066D36E /* InfoPlist.strings */; };
+		CEDEA62815EDDC950066D36E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDEA62715EDDC950066D36E /* main.m */; };
+		CEDEA62C15EDDC950066D36E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDEA62B15EDDC950066D36E /* AppDelegate.m */; };
+		CEDEA62F15EDDC950066D36E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDEA62E15EDDC950066D36E /* ViewController.m */; };
+		CEDEA63215EDDC950066D36E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDEA63015EDDC950066D36E /* ViewController.xib */; };
+		CEDEA63D15EDDEA40066D36E /* timeup.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDEA63C15EDDEA40066D36E /* timeup.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEDEA61715EDDC950066D36E /* Timeup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timeup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDEA61B15EDDC950066D36E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEDEA61D15EDDC950066D36E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEDEA61F15EDDC950066D36E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEDEA62315EDDC950066D36E /* Timeup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timeup-Info.plist"; sourceTree = "<group>"; };
+		CEDEA62515EDDC950066D36E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEDEA62715EDDC950066D36E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEDEA62915EDDC950066D36E /* Timeup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timeup-Prefix.pch"; sourceTree = "<group>"; };
+		CEDEA62A15EDDC950066D36E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEDEA62B15EDDC950066D36E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEDEA62D15EDDC950066D36E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEDEA62E15EDDC950066D36E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEDEA63115EDDC950066D36E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CEDEA63B15EDDEA40066D36E /* timeup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeup.h; sourceTree = "<group>"; };
+		CEDEA63C15EDDEA40066D36E /* timeup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timeup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDEA61415EDDC950066D36E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDEA61C15EDDC950066D36E /* UIKit.framework in Frameworks */,
+				CEDEA61E15EDDC950066D36E /* Foundation.framework in Frameworks */,
+				CEDEA62015EDDC950066D36E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDEA60C15EDDC950066D36E = {
+			isa = PBXGroup;
+			children = (
+				CEDEA62115EDDC950066D36E /* Timeup */,
+				CEDEA61A15EDDC950066D36E /* Frameworks */,
+				CEDEA61815EDDC950066D36E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDEA61815EDDC950066D36E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDEA61715EDDC950066D36E /* Timeup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDEA61A15EDDC950066D36E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDEA61B15EDDC950066D36E /* UIKit.framework */,
+				CEDEA61D15EDDC950066D36E /* Foundation.framework */,
+				CEDEA61F15EDDC950066D36E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDEA62115EDDC950066D36E /* Timeup */ = {
+			isa = PBXGroup;
+			children = (
+				CEDEA62A15EDDC950066D36E /* AppDelegate.h */,
+				CEDEA62B15EDDC950066D36E /* AppDelegate.m */,
+				CEDEA62D15EDDC950066D36E /* ViewController.h */,
+				CEDEA62E15EDDC950066D36E /* ViewController.m */,
+				CEDEA63015EDDC950066D36E /* ViewController.xib */,
+				CEDEA63B15EDDEA40066D36E /* timeup.h */,
+				CEDEA63C15EDDEA40066D36E /* timeup.m */,
+				CEDEA62215EDDC950066D36E /* Supporting Files */,
+			);
+			path = Timeup;
+			sourceTree = "<group>";
+		};
+		CEDEA62215EDDC950066D36E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDEA62315EDDC950066D36E /* Timeup-Info.plist */,
+				CEDEA62415EDDC950066D36E /* InfoPlist.strings */,
+				CEDEA62715EDDC950066D36E /* main.m */,
+				CEDEA62915EDDC950066D36E /* Timeup-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDEA61615EDDC950066D36E /* Timeup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDEA63515EDDC950066D36E /* Build configuration list for PBXNativeTarget "Timeup" */;
+			buildPhases = (
+				CEDEA61315EDDC950066D36E /* Sources */,
+				CEDEA61415EDDC950066D36E /* Frameworks */,
+				CEDEA61515EDDC950066D36E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timeup;
+			productName = Timeup;
+			productReference = CEDEA61715EDDC950066D36E /* Timeup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDEA60E15EDDC950066D36E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Zurelsoft Pvt.Ltd";
+			};
+			buildConfigurationList = CEDEA61115EDDC950066D36E /* Build configuration list for PBXProject "Timeup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEDEA60C15EDDC950066D36E;
+			productRefGroup = CEDEA61815EDDC950066D36E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDEA61615EDDC950066D36E /* Timeup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDEA61515EDDC950066D36E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDEA62615EDDC950066D36E /* InfoPlist.strings in Resources */,
+				CEDEA63215EDDC950066D36E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDEA61315EDDC950066D36E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDEA62815EDDC950066D36E /* main.m in Sources */,
+				CEDEA62C15EDDC950066D36E /* AppDelegate.m in Sources */,
+				CEDEA62F15EDDC950066D36E /* ViewController.m in Sources */,
+				CEDEA63D15EDDEA40066D36E /* timeup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEDEA62415EDDC950066D36E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDEA62515EDDC950066D36E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEDEA63015EDDC950066D36E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDEA63115EDDC950066D36E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDEA63315EDDC950066D36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEDEA63415EDDC950066D36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDEA63615EDDC950066D36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timeup/Timeup-Prefix.pch";
+				INFOPLIST_FILE = "Timeup/Timeup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEDEA63715EDDC950066D36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timeup/Timeup-Prefix.pch";
+				INFOPLIST_FILE = "Timeup/Timeup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDEA61115EDDC950066D36E /* Build configuration list for PBXProject "Timeup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDEA63315EDDC950066D36E /* Debug */,
+				CEDEA63415EDDC950066D36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDEA63515EDDC950066D36E /* Build configuration list for PBXNativeTarget "Timeup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDEA63615EDDC950066D36E /* Debug */,
+				CEDEA63715EDDC950066D36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDEA60E15EDDC950066D36E /* Project object */;
+}
